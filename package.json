@@ -1,0 +1,24 @@
+{
+  "name": "parker-api",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "Technical Assessment - Eyepax IT Consulting",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "jasmine --config=jasmine.json"
+  },
+  "keywords": [],
+  "author": "Shyamali Gunawardhana",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jasmine": "^4.3.0"
+  }
+}
